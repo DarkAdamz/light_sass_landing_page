@@ -135,7 +135,7 @@ export const Testimonials = () => {
                 </div>
                 <div className="flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black_25%,black_75%,transparent)] max-h-[738px] overflow-hidden">
                     <TestimonialsColumn testimonials={firstColumn} duration={15} key={1} />
-                    <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={19} key={2} />
+                    <TestimonialsColumn testimonials={secondColumn} className="hidden md:block" duration={20} key={2} />
                     <TestimonialsColumn testimonials={thirdColumn} className="hidden lg:block" duration={17} key={3} />
                 </div>
             </div>
