@@ -97,7 +97,7 @@ const TestimonialsColumn = (props: {
                 <React.Fragment key={index}>
                     {props.testimonials.map(({text, imageSrc, name, username}) => (
                         <div className="card">
-                            <div>{text}</div>
+                            <div key={Math.floor(Math.random()) * 10}>{text}</div>
                             <div className="flex items-center gap-2 mt-5">
                                 <Image
                                     src={imageSrc}
