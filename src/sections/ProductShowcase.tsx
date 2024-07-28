@@ -33,7 +33,7 @@ export const ProductShowcase = () => {
                         alt="Pyramid Image"
                         height={262}
                         width={262}
-                        className="hidden md:block absolute -right-35 -top-32"
+                        className="hidden md:block absolute -right-[150px] -top-[30px]"
                         style={{
                             translateY,
                         }}
